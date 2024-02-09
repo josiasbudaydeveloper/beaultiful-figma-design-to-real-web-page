@@ -6,6 +6,15 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  theme: {
+    backgroundImage: {
+      'hero-background-image': "url('/Home/hero-background-image.png')"
+    },
+    opacity: {
+      'hero-background-image': "60%"
+    }
+  },
   plugins: [],
 };
+
 export default config;
