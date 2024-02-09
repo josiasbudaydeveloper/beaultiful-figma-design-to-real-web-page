@@ -71,9 +71,9 @@ export default function Header() {
             `}>
               { headerLinks.map((headerLink) => {
                 return (
-                  <li key={headerLink.title}>
+                  <li key={headerLink.title} className="py-1">
                     <a href={headerLink.href} className={`
-                      mr-6 hover:border-b-[2px]
+                      pr-6 hover:border-b-[2px]
                       ${(pathName !== headerLink.href && headerLink.isActive)
                         && "text-white hover:border-[white]"
                       }
