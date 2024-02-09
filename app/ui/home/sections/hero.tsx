@@ -32,12 +32,12 @@ export default function Hero() {
           </Button>
         </div>
 
-        <div>
+        <div className="flex justify-center">
           <div className={`
           bg-white rounded-[8px]
             flex justify-between lg:items-center items-start lg:flex-row flex-col
             py-[32px] px-[62px]
-            max-w-[1400px]
+            w-full max-w-[1400px]
           `}>
             <div className="w-full">
               <h1 className={`
