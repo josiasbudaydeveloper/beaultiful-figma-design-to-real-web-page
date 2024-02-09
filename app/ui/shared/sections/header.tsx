@@ -37,7 +37,10 @@ export default function Header() {
           return (
             <li key={headerLink.title}>
               <a href={headerLink.href} className={`
-                mr-6 hover:border-b-[2px] hover:border-[black]
+                mr-6 hover:border-b-[2px]
+                ${(pathName !== headerLink.href && headerLink.isActive)
+                  && "hover:border-[black]"
+                }
                 ${(pathName === headerLink.href && headerLink.isActive) 
                   && "text-[#4A60A1] hover:border-[#4A60A1] font-semibold"
                 }
@@ -73,7 +76,7 @@ export default function Header() {
                 return (
                   <li key={headerLink.title} className="py-1">
                     <a href={headerLink.href} className={`
-                      pr-6 hover:border-b-[2px]
+                      mr-6 hover:border-b-[2px]
                       ${(pathName !== headerLink.href && headerLink.isActive)
                         && "text-white hover:border-[white]"
                       }
