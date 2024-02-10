@@ -1,4 +1,4 @@
-import Button from "@/app/ui/shared/components/Button";
+import Button, { ButtonWhite } from "@/app/ui/shared/components/Button";
 
 export default function Hero() {
   return (
@@ -27,21 +27,21 @@ export default function Hero() {
             Rent
           </Button>
           
-          <Button bgColor="#fff" bgHoverColor="#cccccc" textColor="#000">
+          <ButtonWhite>
             Sale
-          </Button>
+          </ButtonWhite>
         </div>
 
         <div className="flex justify-center">
           <div className={`
           bg-white rounded-[8px]
             flex justify-between lg:items-center items-start lg:flex-row flex-col
-            py-[32px] px-[62px]
+            py-[16px] sm:py-[32px] px-[31px] sm:px-[62px]
             w-full max-w-[1400px]
           `}>
             <div className="w-full">
               <h1 className={`
-                text-[16px] text-[#4A60A1]
+                text-[16px] text-[#1E2640]
                 leading-[24px] font-[600]
                 mb-[16px]
               `}>
@@ -61,7 +61,7 @@ export default function Hero() {
 
             <div className="w-full">
               <h1 className={`
-                text-[16px] text-[#4A60A1]
+                text-[16px] text-[#1E2640]
                 leading-[24px] font-[600]
                 mb-[16px]
               `}>
@@ -81,7 +81,7 @@ export default function Hero() {
 
             <div className="w-full">
               <h1 className={`
-                text-[16px] text-[#4A60A1]
+                text-[16px] text-[#1E2640]
                 leading-[24px] font-[600]
                 mb-[16px]
               `}>
