@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header className="lg:py-[22px] lg:px-[80px] p-5">
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <div className="flex">
           <Image 
             src={Logo.src}
@@ -32,7 +32,7 @@ export default function Header() {
           />
         </div>
 
-        <ul className="hidden lg:flex justify-between">
+        <ul className="hidden lg:flex justify-between items-center">
         { headerLinks.map((headerLink) => {
           return (
             <li key={headerLink.title}>
