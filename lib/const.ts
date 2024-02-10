@@ -1,36 +1,36 @@
 export const headerLinks = [
   {
-    title: 'Home',
+    title: 'HOME',
     href: '/',
     isActive: true
   },
   {
-    title: 'About Us',
+    title: 'ABOUT US',
     href: '/',
     isActive: false
   },
   {
-    title: 'Our Agents',
+    title: 'OUR AGENTS',
     href: '/',
     isActive: false
   },
   {
-    title: 'Properties',
+    title: 'PROPERTIES',
     href: '/properties',
     isActive: true
   },
   {
-    title: 'Blog',
+    title: 'BLOG',
     href: '/',
     isActive: false
   },
   {
-    title: 'Contact Us',
+    title: 'CONTACT US',
     href: '/',
     isActive: false
   },
   {
-    title: 'Search',
+    title: 'SEARCH',
     href: '/',
     isActive: false
   }
