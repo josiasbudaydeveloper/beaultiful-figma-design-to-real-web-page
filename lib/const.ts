@@ -16,8 +16,8 @@ export const headerLinks = [
   },
   {
     title: 'PROPERTIES',
-    href: '/properties',
-    isActive: true
+    href: '/',
+    isActive: false
   },
   {
     title: 'BLOG',

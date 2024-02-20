@@ -1,4 +1,4 @@
-import Button, { ButtonWhite } from "@/app/ui/shared/components/Button";
+import Button, { ButtonWhite } from "@/app/ui/home/components/Button";
 
 export default function Hero() {
   return (
