@@ -40,17 +40,19 @@ export default function Hero() {
             w-full max-w-[1400px]
           `}>
             <div className="w-full">
-              <h1 className={`
-                text-[16px] text-[#1E2640]
-                leading-[24px] font-[600]
-                mb-[16px]
-              `}>
-                Locations
-              </h1>
-              
-              <select>
-                <option value="" disabled selected>Select your city</option>
-              </select>
+              <label>
+                <h1 className={`
+                  text-[16px] text-[#1E2640]
+                  leading-[24px] font-[600]
+                  mb-[16px]
+                `}>
+                  Locations
+                </h1>
+
+                <select>
+                  <option value="" disabled selected>Select your city</option>
+                </select>
+              </label>
 
               <div className={`
                 block lg:hidden my-4 lg:py-0
@@ -60,17 +62,19 @@ export default function Hero() {
             </div>
 
             <div className="w-full">
-              <h1 className={`
-                text-[16px] text-[#1E2640]
-                leading-[24px] font-[600]
-                mb-[16px]
-              `}>
-                Property Type
-              </h1>
-              
-              <select>
-                <option value="" disabled selected>Select property type</option>
-              </select>
+              <label>
+                <h1 className={`
+                  text-[16px] text-[#1E2640]
+                  leading-[24px] font-[600]
+                  mb-[16px]
+                `}>
+                  Property Type
+                </h1>
+                
+                <select>
+                  <option value="" disabled selected>Select property type</option>
+                </select>
+              </label>
 
               <div className={`
                 block lg:hidden my-4 lg:py-0
@@ -80,17 +84,19 @@ export default function Hero() {
             </div>
 
             <div className="w-full">
-              <h1 className={`
-                text-[16px] text-[#1E2640]
-                leading-[24px] font-[600]
-                mb-[16px]
-              `}>
-                Rent Range
-              </h1>
-              
-              <select>
-                <option value="" disabled selected>Select rent range</option>
-              </select>
+              <label>
+                <h1 className={`
+                  text-[16px] text-[#1E2640]
+                  leading-[24px] font-[600]
+                  mb-[16px]
+                `}>
+                  Rent Range
+                </h1>
+                
+                <select>
+                  <option value="" disabled selected>Select rent range</option>
+                </select>
+              </label>
 
               <div className={`
                 block lg:hidden my-4 lg:py-0
