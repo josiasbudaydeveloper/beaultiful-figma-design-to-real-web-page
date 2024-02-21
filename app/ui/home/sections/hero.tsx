@@ -4,7 +4,13 @@ export default function Hero() {
   return (
     <section>
       <div className={`
-        bg-hero-background-image bg-cover bg-center bg-fixed
+        bg-sm-hero-background-image 
+        md:bg-md-hero-background-image
+        lg:bg-lg-hero-background-image
+        xl:bg-xl-hero-background-image
+        2xl:bg-2xl-hero-background-image
+
+        bg-cover bg-center bg-fixed
         py-[120px] px-[30px]
       `}>
         <div className="text-center mb-[62px]">

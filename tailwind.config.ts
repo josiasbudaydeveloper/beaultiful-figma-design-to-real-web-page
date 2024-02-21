@@ -8,7 +8,11 @@ const config: Config = {
   ],
   theme: {
     backgroundImage: {
-      'hero-background-image': "url('/Home/hero-background-image.png')"
+      'sm-hero-background-image': "url('/Home/sm-hero-background-image.png')",
+      'md-hero-background-image': "url('/Home/md-hero-background-image.png')",
+      'lg-hero-background-image': "url('/Home/lg-hero-background-image.png')",
+      'xl-hero-background-image': "url('/Home/xl-hero-background-image.png')",
+      '2xl-hero-background-image': "url('/Home/2xl-hero-background-image.png')"
     },
     opacity: {
       'hero-background-image': "60%"
